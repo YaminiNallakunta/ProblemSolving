@@ -1,7 +1,11 @@
-//problem statement: Bus Traveling System: Nina wants to travel the city, but is unaware about the bus routes and the cost. The goal is to solve this problem by creating a bus traveling system to find the shortest path and least traveling distance to reach from source to destination.
+// problem statement: Bus Traveling System: Nina wants to travel the city, but is unaware about the bus routes and the cost. 
+// The goal is to solve this problem by creating a bus traveling system to find the shortest path and least traveling distance 
+// to reach from source to destination.
 
 // This class represents an edge in the graph. Each edge has a destination node and a weight.
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 class Edge {
     int destination;
@@ -33,7 +37,7 @@ public class BusTravelingSystem {
         addEdge(graph, 3, 4, 1);
 
         int source = 0;
-        int destination = 4;
+        int destination = 3;
 
         int[] distances = dijkstra(graph, source);
 

@@ -1,0 +1,19 @@
+Quick sort
+arr={1,4,5,7,2,9}
+n=arr.length();
+int f=0,l=n-1;
+int pivot=partition(arr,f,l);
+quicksort(arr,0,pivot-1);
+quicksort(arr,pivot+1,l);
+
+partation(int arr[],int f,int l)
+pivot=arr[l]
+if(pivot<arr(i))
+swap(arr(i),pivot)
+
+quicksort(int arr,int f,int l)
+int arr[]=new int[arr.length()];
+if(arr[f]<arr[l])
+arr[i]=arr[f]
+else
+arr[i]=arr[l]
